@@ -4,3 +4,30 @@ having fun with git hub!!!
 when are we going to talk about branches?
 
 I want to learn about branches!
+
+here are the codes on how to do this:
+#cd out of my current directory
+cd ../
+#make a new folder
+mkdir michelle
+#cd into the folder
+cd michelle/
+#clone into misha or my collaborator’s repository
+git clone git@github.com:mishaleong/planet.git
+#make a file
+touch heylady.txt
+#add the file
+git add heylady.txt
+#commit the file
+git commit -m "hanging with misha"	
+#push changes to misha’s computer
+git push origin master	
+# to make a change to the file
+open heylady.txt
+#write stuff
+#then add it
+git add heylady.txt
+#then comit the changes
+git commit –m “talking to misha”
+#push these changes to misha’s repository
+git push origin master
